@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+body{
+    background: #3a3b3c;
+    padding: 0;
+    margin: 0;
+}
+
+
+#NavBox {
+    border-bottom: 3px solid #B7825F;
+    background-color: #242526;
+    z-index: 5;
+    position:fixed;
+    text-align:left;
+    width:100%;
+    padding:8px;
+}
+
+#NavText {
+    font: 45px 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    padding-left:15px;
+    padding-right:45px;
+    color: #B7825F;
+    animation: fadein .8s;
+}
+
+#NavText:hover {
+    font-weight:600;
+}
+
+.Head {
+    font: 40px 'Yanone Kaffeesatz', sans-serif;
+    color:#B7825F;
+    font-weight: 800;
+    text-align: center;
+    margin:20px auto;
+    margin-top:20px;
+}
+
+span {
+    font: 20px 'Yanone Kaffeesatz', sans-serif;
+    font-weight:600;
+}
+
+p{
+    font: 17px sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    #NavText{
+        font: 25px 'Yanone Kaffeesatz', sans-serif;
+        padding-right: 10px;
+    }
+}
